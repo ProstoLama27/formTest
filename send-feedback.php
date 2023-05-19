@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $message = $_POST["message"];
 
   // Email address where you want to receive the feedback
-  $to = "your-email@example.com";
+  $to = "prostolama27@gmail.com";
   $subject = "Feedback from " . $name;
   $body = "Name: " . $name . "\nEmail: " . $email . "\nMessage: " . $message;
 
@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'mankaegor25@gmail.com';
+    $mail->Username = 'prostolama27@gmail.com';
     $mail->Password = 'V@yeiby_t27';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
